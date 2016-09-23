@@ -14,14 +14,16 @@ public class testlopca {
 		int loaica;
         sc = new Scanner(System.in);
         loaica = sc.nextInt();
+        System.out.println(" ca ");
+
         switch(loaica)
         {
         case 1:
         	System.out.println(" nhap can nang cua ca ");
-        	sc = new Scanner (System.in);
+        	
         	cannang = sc.nextDouble();
         	System.out.println(" nhap mau ca ");
-        	sc = new Scanner (System.in);
+        	
         	String mau = sc.nextLine();
         	Lopcabaymau bm = new Lopcabaymau("ca tre",cannang,mau,false,7);
     		bm.InThongTin();
